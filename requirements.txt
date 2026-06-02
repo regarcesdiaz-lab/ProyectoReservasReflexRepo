@@ -1,0 +1,8 @@
+reflex>=0.7.0,<0.9.0
+sqlmodel>=0.0.16
+pymysql>=1.1.0
+cryptography>=42.0.0
+python-dotenv>=1.0.0
+pydantic[email]>=2.0.0
+passlib[bcrypt]>=1.7.4
+bcrypt==4.0.1

@@ -1,0 +1,30 @@
+.web
+*.py[cod]
+.states
+assets/external/
+# Reflex
+.web/
+*.db
+reflex.db
+alembic/versions/__pycache__/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+venv/
+env/
+.venv/
+
+# Variables de entorno
+.env
+
+# IDE
+.vscode/
+.idea/
+*.swp
+.DS_Store
+
+# Logs
+*.log

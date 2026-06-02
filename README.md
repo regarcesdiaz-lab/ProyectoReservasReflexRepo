@@ -81,7 +81,7 @@ ProyectoReservasReflex/
 
 1. **Clonar y entrar al proyecto**
    ```bash
-   git clone https://github.com/TU_USUARIO/ProyectoReservasReflexRepo.git
+   git clone https://github.com/regarcesdiaz-lab/ProyectoReservasReflexRepo.git
    cd ProyectoReservasReflex
    ```
 
@@ -187,7 +187,7 @@ git push origin feature/nombre
 
 ## 👤 Autor
 
-**[Tu Nombre]**
+**[Ramon Eduardo Garces Diaz]**
 Curso: Desarrollo Web — 2026
 
 ---

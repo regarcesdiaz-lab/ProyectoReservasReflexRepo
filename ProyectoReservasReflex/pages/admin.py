@@ -1,7 +1,16 @@
 """
 Panel de Administración (/admin).
-Tabs: Reservas | Ofertas | Sugerencias
+
+Acceso: Solo usuarios con rol 'admin'.
+
+Funcionalidades organizadas en tabs:
+- Reservas: filtrar por estado, confirmar, cancelar, eliminar
+- Ofertas: crear, editar, activar/desactivar, eliminar
+- Sugerencias: leer mensajes del formulario de contacto, marcar leidas, eliminar
+
+Incluye un dashboard con estadisticas (total de reservas, ofertas y sugerencias).
 """
+
 import reflex as rx
 from ..states.admin_state import (
     AdminState, ReservaAdminView, OfertaAdminView, SugerenciaView,

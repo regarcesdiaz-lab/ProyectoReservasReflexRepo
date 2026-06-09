@@ -54,6 +54,7 @@ Aplicación web full-stack desarrollada con **Reflex (Python)** que permite gest
 ---
 
 ## 📂 Estructura del proyecto
+```bash
 ProyectoReservasReflex/
 ├── assets/images/
 ├── ProyectoReservasReflex/
@@ -73,7 +74,7 @@ ProyectoReservasReflex/
 ├── requirements.txt
 ├── seed.py                          # Datos de prueba
 └── README.md
-
+````
 ---
 
 ## ⚙️ Instalación local
@@ -281,7 +282,7 @@ Estos archivos NO se suben a GitHub (están en `.gitignore`):
 ## 👤 Autor
 
 **Ramón Garcés**
-Curso: Desarrollo Web — INTEC
+Curso: 5to A inofrmatica
 Año: 2026
 
 ---

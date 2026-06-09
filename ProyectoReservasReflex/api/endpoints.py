@@ -1,13 +1,21 @@
 """
-API REST.
+API REST del proyecto TurismoDO.
 
-Rutas:
-  GET  /api/ofertas              -> Listar ofertas activas
-  GET  /api/ofertas/{id}         -> Detalle de una oferta
-  POST /api/reservas             -> Crear una reserva
-  GET  /api/reservas             -> Listar todas las reservas
-  GET  /api/sugerencias          -> Listar sugerencias
+Implementada con FastAPI integrado en Reflex.
+Documentacion automatica disponible en: http://localhost:8000/docs (Swagger UI)
+
+Endpoints disponibles:
+
+  GET  /api/ofertas              -> Listar ofertas activas (publico)
+  GET  /api/ofertas/{id}         -> Detalle completo de una oferta
+  POST /api/reservas             -> Crear una nueva reserva
+  GET  /api/reservas             -> Listar todas las reservas (admin)
+  GET  /api/sugerencias          -> Listar mensajes/sugerencias (admin)
+
+Todos los endpoints retornan JSON. Las validaciones se hacen con Pydantic
+para garantizar tipos correctos y emails validos.
 """
+
 from datetime import datetime
 from typing import Optional
 from fastapi import HTTPException

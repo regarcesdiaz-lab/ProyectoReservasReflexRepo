@@ -4,11 +4,6 @@ Aplicación web full-stack desarrollada con **Reflex (Python)** que permite gest
 
 > 🎓 Proyecto Final — Desarrollo Web
 
----
-
-## 🌐 Demo en producción
-
-🔗 https://turismodo.onrender.com *(actualizar con tu URL real después del despliegue en Render)*
 
 ---
 

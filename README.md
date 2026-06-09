@@ -173,9 +173,28 @@ git push origin feature/nombre
 # Pull Request hacia develop
 ```
 
-## 👤 Autor
-**[Ramon Eduardo Garces Diaz]**
-Curso: Desarrollo Web — 2026
+# Contribuyentes del Proyecto TurismoDO
+
+## Ramón Eduardo Garcés Díaz
+- Arquitectura del proyecto con Reflex
+- Backend (states, modelos, lógica)
+- Sistema de autenticación con bcrypt
+- Panel de administración completo
+- API REST con FastAPI
+- Migración de base de datos a Aiven
+- Configuración de despliegue
+- Control de versiones con GitFlow
+
+## [Channel]
+- Documentación del proyecto
+- Pruebas funcionales
+- Mejoras al README
+- Revisión de coherencia
+
+---
+
+## Curso
+Desarrollo Web — 2026
 ---
 ## 🔗 Enlaces útiles
 - [Reflex docs](https://reflex.dev/docs)

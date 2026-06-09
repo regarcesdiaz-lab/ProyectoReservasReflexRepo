@@ -173,18 +173,29 @@ git push origin feature/nombre
 # Pull Request hacia develop
 ```
 
-
-
 ## 👤 Autor
-
 **[Ramon Eduardo Garces Diaz]**
 Curso: Desarrollo Web — 2026
-
 ---
-
 ## 🔗 Enlaces útiles
-
 - [Reflex docs](https://reflex.dev/docs)
 - [SQLModel](https://sqlmodel.tiangolo.com/)
 - [FastAPI](https://fastapi.tiangolo.com/)
-- [Render](https://render.com/docs) [Aiven MySQL](https://aiven.io/mysql)
+- [Render](https://render.com/docs)
+- [Aiven MySQL](https://aiven.io/mysql)
+
+---
+
+## 🌐 Sobre la migración a la nube
+
+Este proyecto inicialmente fue desarrollado con MySQL local (XAMPP) y posteriormente migrado a MySQL en la nube usando **Aiven**.
+
+### Ventajas de la migración:
+- La base de datos está siempre disponible (no depende del PC local)
+- Cualquier dispositivo con las credenciales puede conectarse
+- Facilita el despliegue en Render (que no provee MySQL gratis)
+- Los datos persisten incluso si se reinicia el equipo de desarrollo
+- Conexion segura mediante certificado SSL (ca.pem)
+
+### Configuración:
+La cadena de conexión se almacena en el archivo `.env` (no incluido en el repositorio por seguridad) y el certificado SSL en `ca.pem`. Para conectarse desde otro dispositivo, ambos archivos deben configurarse correctamente.

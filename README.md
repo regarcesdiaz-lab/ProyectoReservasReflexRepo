@@ -173,17 +173,7 @@ git push origin feature/nombre
 # Pull Request hacia develop
 ```
 
----
 
-## 🚢 Despliegue en Render
-
-1. Crea MySQL en Aiven (gratis) o Railway
-2. Conecta tu repo en Render → New Web Service
-3. Build Command: `pip install -r requirements.txt && reflex db migrate`
-4. Start Command: `reflex run --env prod`
-5. Env Vars: `DATABASE_URL`, `API_URL`, `PYTHON_VERSION=3.11`
-
----
 
 ## 👤 Autor
 
@@ -197,5 +187,4 @@ Curso: Desarrollo Web — 2026
 - [Reflex docs](https://reflex.dev/docs)
 - [SQLModel](https://sqlmodel.tiangolo.com/)
 - [FastAPI](https://fastapi.tiangolo.com/)
-- [Render](https://render.com/docs)
-- [Aiven MySQL](https://aiven.io/mysql)
+- [Render](https://render.com/docs) [Aiven MySQL](https://aiven.io/mysql)
